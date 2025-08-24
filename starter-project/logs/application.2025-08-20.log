@@ -1,0 +1,67 @@
+2025-08-20 17:11:08.652 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @113ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-08-20 17:11:08.666 [main] INFO  com.dbh.training.rest.Application - Starting DBH REST Training Server...
+2025-08-20 17:11:08.673 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 24.0.2
+2025-08-20 17:11:08.755 [main] INFO  c.d.t.rest.config.JerseyConfig - Initializing Jersey configuration...
+2025-08-20 17:11:08.758 [main] INFO  c.d.t.rest.config.JerseyConfig - Jersey configuration initialized successfully
+2025-08-20 17:11:08.758 [main] INFO  c.d.t.rest.config.JerseyConfig - Scanning packages: com.dbh.training.rest
+2025-08-20 17:11:08.758 [main] INFO  c.d.t.rest.config.JerseyConfig - Features enabled: Jackson JSON, CORS, Request/Response Logging
+2025-08-20 17:11:08.865 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@38875e7d{/,null,AVAILABLE}
+2025-08-20 17:11:08.875 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@5cdd8682{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-08-20 17:11:08.875 [main] INFO  org.eclipse.jetty.server.Server - Started @337ms
+2025-08-20 17:11:08.875 [main] INFO  com.dbh.training.rest.Application - Server started successfully!
+2025-08-20 17:11:09.010 [main] INFO  com.dbh.training.rest.Application - Server running at http://localhost:8080
+2025-08-20 17:11:09.010 [main] INFO  com.dbh.training.rest.Application - API endpoint: http://localhost:8080/api
+2025-08-20 17:11:09.010 [main] INFO  com.dbh.training.rest.Application - Health check: http://localhost:8080/api/health
+2025-08-20 17:11:09.010 [main] INFO  com.dbh.training.rest.Application - Press Ctrl+C to stop the server...
+2025-08-20 17:11:26.616 [qtp1957502751-60] INFO  c.d.t.rest.filters.LoggingFilter - [783eccc7] GET health from curl/8.15.0
+2025-08-20 17:11:26.616 [qtp1957502751-60] DEBUG c.d.t.rest.filters.LoggingFilter - [783eccc7] Header: Accept = [*/*]
+2025-08-20 17:11:26.617 [qtp1957502751-60] DEBUG c.d.t.rest.filters.LoggingFilter - [783eccc7] Header: User-Agent = [curl/8.15.0]
+2025-08-20 17:11:26.617 [qtp1957502751-60] DEBUG c.d.t.rest.filters.LoggingFilter - [783eccc7] Header: Host = [localhost:8080]
+2025-08-20 17:11:26.620 [qtp1957502751-60] INFO  c.d.t.rest.filters.LoggingFilter - [783eccc7] Response: 200 - 4 ms
+2025-08-20 17:11:42.414 [qtp1957502751-39] INFO  c.d.t.rest.filters.LoggingFilter - [9033ba08] GET health/details from curl/8.15.0
+2025-08-20 17:11:42.414 [qtp1957502751-39] DEBUG c.d.t.rest.filters.LoggingFilter - [9033ba08] Header: Accept = [*/*]
+2025-08-20 17:11:42.414 [qtp1957502751-39] DEBUG c.d.t.rest.filters.LoggingFilter - [9033ba08] Header: User-Agent = [curl/8.15.0]
+2025-08-20 17:11:42.414 [qtp1957502751-39] DEBUG c.d.t.rest.filters.LoggingFilter - [9033ba08] Header: Host = [localhost:8080]
+2025-08-20 17:11:42.415 [qtp1957502751-39] INFO  c.d.t.rest.filters.LoggingFilter - [9033ba08] Response: 200 - 1 ms
+2025-08-20 17:12:38.065 [Thread-0] INFO  com.dbh.training.rest.Application - Stopping server...
+2025-08-20 17:12:38.068 [Thread-0] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@5cdd8682{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-08-20 17:12:38.071 [Thread-0] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@38875e7d{/,null,STOPPED}
+2025-08-20 17:12:38.072 [Thread-0] INFO  com.dbh.training.rest.Application - Server stopped.
+2025-08-20 18:21:37.509 [Test worker] INFO  org.eclipse.jetty.util.log - Logging initialized @250ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-08-20 18:21:37.526 [Test worker] INFO  org.eclipse.jetty.server.Server - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 24.0.2
+2025-08-20 18:21:37.587 [Test worker] INFO  c.d.t.rest.config.JerseyConfig - Initializing Jersey configuration...
+2025-08-20 18:21:37.590 [Test worker] INFO  c.d.t.rest.config.JerseyConfig - Jersey configuration initialized successfully
+2025-08-20 18:21:37.590 [Test worker] INFO  c.d.t.rest.config.JerseyConfig - Scanning packages: com.dbh.training.rest
+2025-08-20 18:21:37.590 [Test worker] INFO  c.d.t.rest.config.JerseyConfig - Features enabled: Jackson JSON, CORS, Request/Response Logging
+2025-08-20 18:21:37.692 [Test worker] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4422dd48{/,null,AVAILABLE}
+2025-08-20 18:21:37.695 [Test worker] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3d97a632{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+2025-08-20 18:21:37.696 [Test worker] INFO  org.eclipse.jetty.server.Server - Started @437ms
+2025-08-20 18:21:38.039 [qtp1615617512-66] INFO  c.d.t.rest.filters.LoggingFilter - [ebf23f13] GET example/users/1 from Apache-HttpClient/4.5.13 (Java/24.0.2)
+2025-08-20 18:21:38.039 [qtp1615617512-66] DEBUG c.d.t.rest.filters.LoggingFilter - [ebf23f13] Header: Accept = [*/*]
+2025-08-20 18:21:38.039 [qtp1615617512-66] DEBUG c.d.t.rest.filters.LoggingFilter - [ebf23f13] Header: Connection = [keep-alive]
+2025-08-20 18:21:38.039 [qtp1615617512-66] DEBUG c.d.t.rest.filters.LoggingFilter - [ebf23f13] Header: User-Agent = [Apache-HttpClient/4.5.13 (Java/24.0.2)]
+2025-08-20 18:21:38.039 [qtp1615617512-66] DEBUG c.d.t.rest.filters.LoggingFilter - [ebf23f13] Header: Host = [localhost:8081]
+2025-08-20 18:21:38.039 [qtp1615617512-66] DEBUG c.d.t.rest.filters.LoggingFilter - [ebf23f13] Header: Accept-Encoding = [gzip,deflate]
+2025-08-20 18:21:38.039 [qtp1615617512-66] DEBUG c.d.t.rest.filters.LoggingFilter - [ebf23f13] Header: Content-Type = [application/json]
+2025-08-20 18:21:38.040 [qtp1615617512-66] INFO  c.d.t.r.r.ExampleUserResource - Getting user with id: 1
+2025-08-20 18:21:38.041 [qtp1615617512-66] INFO  c.d.t.rest.filters.LoggingFilter - [ebf23f13] Response: 200 - 2 ms
+2025-08-20 18:21:38.216 [qtp1615617512-40] INFO  c.d.t.rest.filters.LoggingFilter - [6f3a8bbf] GET example/users/99999 from Apache-HttpClient/4.5.13 (Java/24.0.2)
+2025-08-20 18:21:38.216 [qtp1615617512-40] DEBUG c.d.t.rest.filters.LoggingFilter - [6f3a8bbf] Header: Accept = [*/*]
+2025-08-20 18:21:38.216 [qtp1615617512-40] DEBUG c.d.t.rest.filters.LoggingFilter - [6f3a8bbf] Header: Connection = [keep-alive]
+2025-08-20 18:21:38.216 [qtp1615617512-40] DEBUG c.d.t.rest.filters.LoggingFilter - [6f3a8bbf] Header: User-Agent = [Apache-HttpClient/4.5.13 (Java/24.0.2)]
+2025-08-20 18:21:38.216 [qtp1615617512-40] DEBUG c.d.t.rest.filters.LoggingFilter - [6f3a8bbf] Header: Host = [localhost:8081]
+2025-08-20 18:21:38.216 [qtp1615617512-40] DEBUG c.d.t.rest.filters.LoggingFilter - [6f3a8bbf] Header: Accept-Encoding = [gzip,deflate]
+2025-08-20 18:21:38.216 [qtp1615617512-40] DEBUG c.d.t.rest.filters.LoggingFilter - [6f3a8bbf] Header: Content-Type = [application/json]
+2025-08-20 18:21:38.216 [qtp1615617512-40] INFO  c.d.t.r.r.ExampleUserResource - Getting user with id: 99999
+2025-08-20 18:21:38.217 [qtp1615617512-40] INFO  c.d.t.rest.filters.LoggingFilter - [6f3a8bbf] Response: 404 - 1 ms
+2025-08-20 18:21:38.222 [qtp1615617512-41] INFO  c.d.t.rest.filters.LoggingFilter - [a503064a] GET example/users from Apache-HttpClient/4.5.13 (Java/24.0.2)
+2025-08-20 18:21:38.222 [qtp1615617512-41] DEBUG c.d.t.rest.filters.LoggingFilter - [a503064a] Header: Accept = [*/*]
+2025-08-20 18:21:38.222 [qtp1615617512-41] DEBUG c.d.t.rest.filters.LoggingFilter - [a503064a] Header: Connection = [keep-alive]
+2025-08-20 18:21:38.222 [qtp1615617512-41] DEBUG c.d.t.rest.filters.LoggingFilter - [a503064a] Header: User-Agent = [Apache-HttpClient/4.5.13 (Java/24.0.2)]
+2025-08-20 18:21:38.222 [qtp1615617512-41] DEBUG c.d.t.rest.filters.LoggingFilter - [a503064a] Header: Host = [localhost:8081]
+2025-08-20 18:21:38.222 [qtp1615617512-41] DEBUG c.d.t.rest.filters.LoggingFilter - [a503064a] Header: Accept-Encoding = [gzip,deflate]
+2025-08-20 18:21:38.222 [qtp1615617512-41] DEBUG c.d.t.rest.filters.LoggingFilter - [a503064a] Header: Content-Type = [application/json]
+2025-08-20 18:21:38.222 [qtp1615617512-41] INFO  c.d.t.r.r.ExampleUserResource - Getting all users
+2025-08-20 18:21:38.222 [qtp1615617512-41] INFO  c.d.t.rest.filters.LoggingFilter - [a503064a] Response: 200 - 0 ms
+2025-08-20 18:21:38.235 [Test worker] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3d97a632{HTTP/1.1, (http/1.1)}{0.0.0.0:8081}
+2025-08-20 18:21:38.238 [Test worker] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4422dd48{/,null,STOPPED}

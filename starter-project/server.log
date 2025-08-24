@@ -1,0 +1,30 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+
+> Task :run
+17:11:08.652 [main] [34mINFO [0;39m [36morg.eclipse.jetty.util.log[0;39m - Logging initialized @113ms to org.eclipse.jetty.util.log.Slf4jLog
+17:11:08.666 [main] [34mINFO [0;39m [36mcom.dbh.training.rest.Application[0;39m - Starting DBH REST Training Server...
+17:11:08.673 [main] [34mINFO [0;39m [36morg.eclipse.jetty.server.Server[0;39m - jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 24.0.2
+17:11:08.755 [main] [34mINFO [0;39m [36mc.d.t.rest.config.JerseyConfig[0;39m - Initializing Jersey configuration...
+17:11:08.758 [main] [34mINFO [0;39m [36mc.d.t.rest.config.JerseyConfig[0;39m - Jersey configuration initialized successfully
+17:11:08.758 [main] [34mINFO [0;39m [36mc.d.t.rest.config.JerseyConfig[0;39m - Scanning packages: com.dbh.training.rest
+17:11:08.758 [main] [34mINFO [0;39m [36mc.d.t.rest.config.JerseyConfig[0;39m - Features enabled: Jackson JSON, CORS, Request/Response Logging
+17:11:08.865 [main] [34mINFO [0;39m [36mo.e.j.server.handler.ContextHandler[0;39m - Started o.e.j.s.ServletContextHandler@38875e7d{/,null,AVAILABLE}
+17:11:08.875 [main] [34mINFO [0;39m [36mo.e.jetty.server.AbstractConnector[0;39m - Started ServerConnector@5cdd8682{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+17:11:08.875 [main] [34mINFO [0;39m [36morg.eclipse.jetty.server.Server[0;39m - Started @337ms
+17:11:08.875 [main] [34mINFO [0;39m [36mcom.dbh.training.rest.Application[0;39m - Server started successfully!
+17:11:09.010 [main] [34mINFO [0;39m [36mcom.dbh.training.rest.Application[0;39m - Server running at http://localhost:8080
+17:11:09.010 [main] [34mINFO [0;39m [36mcom.dbh.training.rest.Application[0;39m - API endpoint: http://localhost:8080/api
+17:11:09.010 [main] [34mINFO [0;39m [36mcom.dbh.training.rest.Application[0;39m - Health check: http://localhost:8080/api/health
+17:11:09.010 [main] [34mINFO [0;39m [36mcom.dbh.training.rest.Application[0;39m - Press Ctrl+C to stop the server...
+17:11:26.616 [qtp1957502751-60] [34mINFO [0;39m [36mc.d.t.rest.filters.LoggingFilter[0;39m - [783eccc7] GET health from curl/8.15.0
+17:11:26.616 [qtp1957502751-60] [39mDEBUG[0;39m [36mc.d.t.rest.filters.LoggingFilter[0;39m - [783eccc7] Header: Accept = [*/*]
+17:11:26.617 [qtp1957502751-60] [39mDEBUG[0;39m [36mc.d.t.rest.filters.LoggingFilter[0;39m - [783eccc7] Header: User-Agent = [curl/8.15.0]
+17:11:26.617 [qtp1957502751-60] [39mDEBUG[0;39m [36mc.d.t.rest.filters.LoggingFilter[0;39m - [783eccc7] Header: Host = [localhost:8080]
+17:11:26.620 [qtp1957502751-60] [34mINFO [0;39m [36mc.d.t.rest.filters.LoggingFilter[0;39m - [783eccc7] Response: 200 - 4 ms
+17:11:42.414 [qtp1957502751-39] [34mINFO [0;39m [36mc.d.t.rest.filters.LoggingFilter[0;39m - [9033ba08] GET health/details from curl/8.15.0
+17:11:42.414 [qtp1957502751-39] [39mDEBUG[0;39m [36mc.d.t.rest.filters.LoggingFilter[0;39m - [9033ba08] Header: Accept = [*/*]
+17:11:42.414 [qtp1957502751-39] [39mDEBUG[0;39m [36mc.d.t.rest.filters.LoggingFilter[0;39m - [9033ba08] Header: User-Agent = [curl/8.15.0]
+17:11:42.414 [qtp1957502751-39] [39mDEBUG[0;39m [36mc.d.t.rest.filters.LoggingFilter[0;39m - [9033ba08] Header: Host = [localhost:8080]
+17:11:42.415 [qtp1957502751-39] [34mINFO [0;39m [36mc.d.t.rest.filters.LoggingFilter[0;39m - [9033ba08] Response: 200 - 1 ms
