@@ -1,6 +1,7 @@
 # DBH REST API Training - Workshop Materials
 
-This repository contains the starter code and exercise instructions for the 2-day REST API training.
+This repository contains the starter code and exercise instructions for the
+2-day REST API training.
 
 ## Prerequisites
 
@@ -12,22 +13,26 @@ This repository contains the starter code and exercise instructions for the 2-da
 ## Getting Started
 
 1. Clone this repository:
+
 ```bash
 git clone https://github.com/thomasbecker/dbh-rest-training-workshop.git
 cd dbh-rest-training-workshop
 ```
 
-2. Navigate to the starter-project:
+1. Navigate to the starter-project:
+
 ```bash
 cd starter-project
 ```
 
-3. Build the project:
+1. Build the project:
+
 ```bash
 ./gradlew build
 ```
 
-4. Run the application:
+1. Run the application:
+
 ```bash
 ./gradlew run
 ```
@@ -55,6 +60,7 @@ dbh-rest-training-workshop/
 ## Exercise Instructions
 
 Each exercise folder contains a README.md with:
+
 - Learning objectives
 - Step-by-step instructions
 - Hints and tips
@@ -72,6 +78,7 @@ Tests are provided for each exercise. Run them with:
 ```
 
 For a specific test:
+
 ```bash
 ./gradlew test --tests UserResourceTest
 ```
@@ -131,12 +138,15 @@ curl -X POST http://localhost:8080/api/users \
 
 ## Related Repositories
 
-- Slides: [dbh-rest-training-slides](https://github.com/thomasbecker/dbh-rest-training-slides)
-- Solutions: [dbh-rest-training-solutions](https://github.com/thomasbecker/dbh-rest-training-solutions) (Available after training)
+- Slides:
+  [dbh-rest-training-slides](https://github.com/thomasbecker/dbh-rest-training-slides)
+  (Available after training) - Solutions:
+  [dbh-rest-training-solutions](https://github.com/thomasbecker/dbh-rest-training-solutions)
+  (Available after training)
 
 ## Support
 
-During the training, ask your instructor for help. After the training, refer to the solutions repository.
+During the training, ask your instructor for help. After the training, refer to
+the solutions repository.
 
 ## License
-
